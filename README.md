@@ -19,3 +19,6 @@ You can add, edit, delete, mark tasks as done, and reset all tasks. Tasks are al
 --Dark mode support 
 
 --Drag-and-drop reordering
+
+## 🌐 Live Demo
+👉 [Try the To-Do App here](https://sidharth-kulkarni.github.io/todo-app/)
