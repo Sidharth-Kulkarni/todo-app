@@ -10,11 +10,11 @@
     <title>Document</title>
 </head>
 <body>
-<diiv class="hmm">
-    <form class="task-form" onsubmit="false;">
+<div class="hmm">
+    <form class="task-form" onsubmit="return false;">
         <div class="form-inner">
             <input type="text" placeholder="ENTER TASK" id="enter--task" class="task--details">
-            <div class="select-bolck">
+            <div class="select-block">
                 <label for="importance" class="task--details">IMPORTANCE</label>
                 <select name="importance" id="importance" class="task--details">
                     <option value="">--please choose an importance level--</option>
@@ -33,7 +33,7 @@
                 </select>
             </div>
             <button type="button" class="add--task">ADD TASK</button>
-            <button id="resetBtn">Reset All</button>
+            <button type="button" id="resetBtn">Reset All</button>
         </div>
     </form>
 </div>
