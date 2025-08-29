@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+<diiv class="hmm">
+    <form class="task-form" onsubmit="false;">
+        <div class="form-inner">
+            <input type="text" placeholder="ENTER TASK" id="enter--task" class="task--details">
+            <div class="select-bolck">
+                <label for="importance" class="task--details">IMPORTANCE</label>
+                <select name="importance" id="importance" class="task--details">
+                    <option value="">--please choose an importance level--</option>
+                    <option value="not-important">NOT IMPORTANT</option>
+                    <option value="important">IMPORTANT</option>
+                    <option value="crucial">CRUCIAL</option>
+                </select>
+            </div>
+            <div class="select-block">
+                <label for="difficulty" class="task--details">DIFFICULTY</label>
+                <select name="difficulty" id="difficulty" class="task--details">
+                    <option value="">--please choose a difficulty level--</option>
+                    <option value="easy">EASY</option>
+                    <option value="medium">MEDIUM</option>
+                    <option value="difficult">DIFFICULT</option>
+                </select>
+            </div>
+            <button type="button" class="add--task">ADD TASK</button>
+            <button id="resetBtn">Reset All</button>
+        </div>
+    </form>
+</div>
+    <div>
+        <ul class="task--list">
+            <li class="task-row header">
+                <span class="col status">STATUS</span>
+                <span class="col no">S.NO</span>
+                <span class="col name">TASK</span>
+                <span class="col imp">IMPORTANCE</span>
+                <span class="col diff">DIFFICULTY</span>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
